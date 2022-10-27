@@ -1,0 +1,19 @@
+<h1>heroes</h1>
+
+    <dl>Nombre</dl>
+    <dd>{{ nombre  }}</dd>
+
+    <dl>Edad</dl>
+    <dd>{{ edad }}</dd>
+
+    <dl>Funcion </dl>
+    <dd>{{ getNombreCapitalizado() }}</dd>
+
+    <dl>Capitalizacion</dl>
+    <dd>{{obtenerNombre()}}</dd>
+
+    <button (click)="cambiarHeroe()">Cambiar Heroe</button>
+
+    <button (click)="cambiarEdad()">Cambiar Edad</button>
+
+    <app-listado></app-listado>
